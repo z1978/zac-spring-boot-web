@@ -71,17 +71,17 @@ https://qiita.com/ksby/items/7cf5235f6061ef1600e2
 https://www.tianmaying.com/tutorial/spring-boot-docker
 
 # Gradle:
-gradle build
-cd build/libs
-java -jar zac-spring-boot-web-0.0.1-SNAPSHOT.jar
+$ gradle build
+$ cd build/libs
+$ java -jar zac-spring-boot-web-0.0.1-SNAPSHOT.jar
 
 # Maven:
-mvn package
-java -jar zac-spring-boot-web-0.0.1-SNAPSHOT.jar
+$ mvn package
+$ java -jar zac-spring-boot-web-0.0.1-SNAPSHOT.jar
 
 mvn clean package
 (OR mvn install)
-java -jar target/zac-spring-boot-web-0.0.1-SNAPSHOT.jar
+$ java -jar target/zac-spring-boot-web-0.0.1-SNAPSHOT.jar
 
 ## TODO 生成jar后报错
 The dependencies of some of the beans in the application context form a cycle:
