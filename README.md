@@ -71,7 +71,8 @@ https://qiita.com/ksby/items/7cf5235f6061ef1600e2
 https://www.tianmaying.com/tutorial/spring-boot-docker
 
 # Gradle:
-gradle build && java -jar build/libs/gs-spring-boot-docker-0.1.0.jar
+gradle build
+cd build/libs
 java -jar zac-spring-boot-web-0.0.1-SNAPSHOT.jar
 
 # Maven:
