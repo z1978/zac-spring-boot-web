@@ -70,7 +70,11 @@ https://qiita.com/ksby/items/7cf5235f6061ef1600e2
 ## 在应用代码编写完成后，可以直接将其打包并运行：
 https://www.tianmaying.com/tutorial/spring-boot-docker
 
-Maven:
+# Gradle:
+gradle build && java -jar build/libs/gs-spring-boot-docker-0.1.0.jar
+java -jar zac-spring-boot-web-0.0.1-SNAPSHOT.jar
+
+# Maven:
 mvn package
 java -jar zac-spring-boot-web-0.0.1-SNAPSHOT.jar
 
